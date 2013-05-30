@@ -1,0 +1,48 @@
+Using this repo
+===============
+
+Install Oracle’s VirtualBox 
+
+  http://www.virtualbox.org/wiki/Downloads
+
+Install Vagrant (packages for Windows, Mac, Linux) 
+
+  http://downloads.vagrantup.com
+
+Install Git if you don't already have it.
+
+Linux and Mac OS X:
+
+  $ git clone <GIT_URL>
+  $ cd funeralweb
+  $ git pull && git submodule init && git submodule update && git submodule status
+  $ vagrant up
+
+Windows:
+
+  1. Clone <GIT_URL>
+  2. Right click on funeralweb folder and select Git Submodule update
+  3. Open up Command prompt and run "vagrant up" in your funeral_stationery directory!
+
+Your site is ready to use here:
+
+  http://localhost:8999/
+
+Using Vagrant
+=============
+
+To start your vm
+
+  vagrant up
+
+To stop your VM
+
+  vagrant halt
+
+To delete your VM
+
+  vagrant destroy
+
+To re-provision your VM
+
+  vagrant provision

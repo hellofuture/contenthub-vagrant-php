@@ -1,0 +1,27 @@
+[submodule ".provision/apache2"]
+	path = .provision/apache2
+	url = https://github.com/opscode-cookbooks/apache2.git
+[submodule ".provision/apt"]
+	path = .provision/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule ".provision/aws"]
+	path = .provision/aws
+	url = https://github.com/opscode-cookbooks/aws.git
+[submodule ".provision/build-essential"]
+	path = .provision/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule ".provision/database"]
+	path = .provision/database
+	url = https://github.com/opscode-cookbooks/database.git
+[submodule ".provision/mysql"]
+	path = .provision/mysql
+	url = https://github.com/opscode-cookbooks/mysql.git
+[submodule ".provision/php"]
+	path = .provision/php
+	url = https://github.com/opscode-cookbooks/php.git
+[submodule ".provision/postgresql"]
+	path = .provision/postgresql
+	url = https://github.com/opscode-cookbooks/postgresql.git
+[submodule ".provision/openssl"]
+	path = .provision/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
